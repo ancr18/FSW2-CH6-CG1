@@ -82,7 +82,7 @@ body {
   /* padding-right: 50px;
   box-sizing: border-box; */
 .h2 {
-  font-size: 24px;
+  font-size: 10px;
   line-height: 36px;
   font-weight: 700;
   /* margin-bottom: 24px; */
@@ -113,7 +113,7 @@ body {
 /* why-us-section */
 
 .sub-title {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 20px;
   font-weight: 300;
 }
