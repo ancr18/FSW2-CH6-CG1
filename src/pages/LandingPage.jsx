@@ -5,6 +5,7 @@ import Service from "../components/Service";
 import Testimonial from "../components/Testimonial";
 import WhyUs from "../components/WhyUs";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
       <Testimonial />
       <Banner />
       <Faq />
+      <Footer />
     </>
   );
 }
