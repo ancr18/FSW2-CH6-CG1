@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import CarContextProvider from "./store/car-context";
-import Navigation from "./components/LandingPage/Navbar";
-import Footer from "./components/LandingPage/Footer";
+import Navigation from "./components/LandingPages/Navbar.jsx";
+import Footer from "./components/LandingPages/Footer.jsx";
+import CarPage from "./pages/CarPage.jsx";
 
 import "./App.css";
 
@@ -14,7 +15,7 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            {/* <Route path="/cars" element={<CarPage/>} /> */}
+            <Route path="/cars" element={<CarPage />} />
           </Routes>
           <Footer />
         </Router>

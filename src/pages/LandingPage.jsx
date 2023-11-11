@@ -1,16 +1,16 @@
-import Banner from "../components/LandingPage/Banner";
-import Hero from "../components/LandingPage/Hero";
-import Navigation from "../components/LandingPage/Navbar";
-import Service from "../components/LandingPage/Service";
-import Testimonial from "../components/LandingPage/Testimonial";
-import WhyUs from "../components/LandingPage/WhyUs";
-import Faq from "../components/LandingPage/Faq";
-import Footer from "../components/LandingPage/Footer";
+import Banner from "../components/LandingPages/Banner";
+import Hero from "../components/LandingPages/Hero";
+import Navigation from "../components/LandingPages/Navbar";
+import Service from "../components/LandingPages/Service";
+import Testimonial from "../components/LandingPages/Testimonial";
+import WhyUs from "../components/LandingPages/WhyUs";
+import Faq from "../components/LandingPages/Faq";
+import Footer from "../components/LandingPages/Footer";
 
 export default function LandingPage() {
   return (
     <>
-      <Hero landingPage={true} />
+      <Hero />
       <Service />
       <WhyUs />
       <Testimonial />
