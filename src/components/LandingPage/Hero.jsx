@@ -18,7 +18,9 @@ export default function Hero() {
                   kebutuhanmu untuk sewa mobil selama 24 jam.
                 </p>
                 <Link to="/cars">
-                  <button className="btn-sewa fw-bold">Mulai Sewa Mobil</button>
+                  <button className="btn-sewa fw-bold" type="button">
+                    Mulai Sewa Mobil
+                  </button>
                 </Link>
               </div>
 

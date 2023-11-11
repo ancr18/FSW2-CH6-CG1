@@ -10,14 +10,12 @@ import Footer from "../components/LandingPage/Footer";
 export default function LandingPage() {
   return (
     <>
-      <Navigation />
-      <Hero />
+      <Hero landingPage={true} />
       <Service />
       <WhyUs />
       <Testimonial />
       <Banner />
       <Faq />
-      <Footer />
     </>
   );
 }
